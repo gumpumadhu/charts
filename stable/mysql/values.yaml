@@ -89,7 +89,7 @@ tolerations: []
 livenessProbe:
   initialDelaySeconds: 30
   periodSeconds: 10
-  timeoutSeconds: 5
+  timeoutSeconds: 6
   successThreshold: 1
   failureThreshold: 3
 
