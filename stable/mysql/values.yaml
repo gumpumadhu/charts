@@ -172,7 +172,7 @@ metrics:
     # prometheus.io/port: "9104"
   livenessProbe:
     initialDelaySeconds: 15
-    timeoutSeconds: 5
+    timeoutSeconds: 6
   readinessProbe:
     initialDelaySeconds: 5
     timeoutSeconds: 1
