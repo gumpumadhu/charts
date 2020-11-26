@@ -96,7 +96,7 @@ livenessProbe:
 readinessProbe:
   initialDelaySeconds: 5
   periodSeconds: 10
-  timeoutSeconds: 1
+  timeoutSeconds: 5
   successThreshold: 1
   failureThreshold: 3
 
