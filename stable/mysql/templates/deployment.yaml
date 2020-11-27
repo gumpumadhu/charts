@@ -14,7 +14,6 @@ metadata:
 {{- end }}
 
 spec:
-  replicas: 2
   strategy:
 {{ toYaml .Values.strategy | indent 4 }}
   selector:
