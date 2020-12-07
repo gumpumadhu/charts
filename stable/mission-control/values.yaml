@@ -224,7 +224,7 @@ insightScheduler:
   affinity: {}
 
 insightExecutor:
-  replicaCount: 1
+  replicaCount: 3
   name: insight-executor
   image: docker.bintray.io/jfrog/insight-executor
   ## Note that by default we use appVersion to get image tag
