@@ -68,7 +68,7 @@ enterprise:
       ## It is meant to be used in conjunction with the influxdb:data package of the same version.
       ## ref: https://hub.docker.com/_/influxdb
       tag: meta
-    clusterSize: 3
+    clusterSize: 5
     ## seed is hashed and used as `internal-shared-secret` for Meta service.
     seed: dead-beef-cafe-bae
     ## Configure resource requests and limits
