@@ -12,4 +12,4 @@ version: 0.4.4
 appVersion: 3.1.2
 ## Deprecated following https://github.com/helm/charts/blob/master/PROCESSES.md#deprecating-a-chart
 ## Chart is now maintained in https://github.com/jfrog/charts
-deprecated: true
+deprecated: false
